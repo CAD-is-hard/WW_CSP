@@ -1,6 +1,6 @@
 # WW, Variables Practice
 
-name = "Bill"
+name = "James"
 number_one = "5"
 number_two = "285"
 breakfast = "toast and eggs"
