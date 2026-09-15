@@ -5,5 +5,7 @@ while True:
         print("That is a number, not a name")
     elif " " in name:
         print("That's more than one name")
+    elif "" in name:
+        print("You have to put something, try again")
     else:
         print(f"Hello {name}, have a great day!")
