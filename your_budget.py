@@ -10,15 +10,15 @@ groceries = float(input("What is your monthly grocery cost: "))
 
 transportation = float(input("What is your transportation cost: "))
 
-housingpercent = ((housing/income)*100)
+housingpercent = int((housing/income)*100)
 
-utilitypercent = (round((utilities/income)*100,0))
+utilitypercent = int((utilities/income)*100)
 
-grocerypercent = (round((groceries/income)*100,0))
+grocerypercent = int((groceries/income)*100)
 
-transportationpercent = (round((transportation/income)*100,0))
+transportationpercent = int((transportation/income)*100)
 
-savings = (round(income/10,0))
+savings = int(income/10)
 
 spending = (round(income-(housing+utilities+groceries+transportation+savings),2))
 
