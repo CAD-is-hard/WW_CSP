@@ -28,7 +28,7 @@ print(f"Your utilities cost is ${utilities} and that is {utilitypercent}% of you
 
 print(f"Your groceries cost is ${groceries} and that is {grocerypercent}% of your income.")
 
-print(f"Your  cost is ${transportation} and that is {transportationpercent}% of your income.")
+print(f"Your transportation cost is ${transportation} and that is {transportationpercent}% of your income.")
 
 print(f"You should save ${savings} a month, that is 10% of your income.")
 
